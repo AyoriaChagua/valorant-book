@@ -1,8 +1,10 @@
+import { MainLayout } from "./components"
+import AppRoutes from "./routes/AppRoutes"
 
 function App() {
 
   return (
-      <h1 className='text-indigo-600'>Vite + React</h1>
+    <AppRoutes />
   )
 }
 

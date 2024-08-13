@@ -1,3 +1,5 @@
-export { default as Footer } from './Footer'
-export { default as SideNav } from './SideNav'
-export { default as Navbar } from './Navbar'
+export { default as Footer } from './Layouts/Footer'
+export { default as Sidebar } from './Layouts/Sidebar'
+export { default as Navbar } from './Layouts/Navbar'
+export { default as MainLayout } from './Layouts/MainLayout'
+export { default as ButtonSidebar } from './UI/ButtonSidebar'
