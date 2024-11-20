@@ -46,7 +46,7 @@ export default function Sidebar() {
   return (
     <>
       {isMobile && (
-        <div className="w-20 fixed top-3 left-6 z-20 p-1 ">
+        <div className="w-20 fixed top-3 left-6 z-40 p-1 ">
           <button
             onClick={() => setIsOpen(!isOpen)}
             className="w-5 h-5  bg-cover bg-center text-red-500"

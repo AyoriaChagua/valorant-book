@@ -22,7 +22,7 @@ export default function CharacterCard({ agent }: Props) {
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}
         >
-            <div className="relative h-96 w-56 overflow-hidden rounded-lg z-10 bg-[#323743]">
+            <div className="relative md:h-96  md:w-56 h-72 w-44 overflow-hidden rounded-lg z-10 bg-[#323743]">
                 <div className="absolute inset-0 rounded-lg overflow-hidden z-0">
                     <img
                         src="https://media.valorant-api.com/maps/7eaecc1b-4337-bbf6-6ab9-04b8f06b3319/listviewicontall.png"

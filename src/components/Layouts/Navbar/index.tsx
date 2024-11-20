@@ -2,7 +2,7 @@ import { Heart, Map, SquareUserRound } from "lucide-react";
 
 export default function Navbar() {
   return (
-    <nav className=" bg-[#1c202d] bg-opacity-30 w-full backdrop-blur-lg h-14 flex items-center lg:px-10 md:px-6 px-3 pr-5 pl-24 md:pl-5 sticky top-0 z-10">
+    <nav className=" bg-[#1c202d] bg-opacity-30 w-full backdrop-blur-lg h-14 flex items-center lg:px-10 md:px-6 px-3 pr-5 pl-24 md:pl-5 sticky top-0 z-20">
       <div
         className="absolute left-0 top-1/2 -translate-y-1/2 h-8 w-0.5 bg-[#40475f]"
         aria-hidden="true"

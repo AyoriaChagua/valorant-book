@@ -27,7 +27,6 @@ export const useAgents = () => {
                 addErrorMessage(errorMessage);
             } else {
                 setAgents(response);
-                setFilteredAgents(response);
             }
         } catch (error) {
             addErrorMessage('Error fetching agents');

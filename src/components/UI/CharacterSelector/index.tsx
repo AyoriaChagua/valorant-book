@@ -6,7 +6,7 @@ interface Props {
 
 export default function CharacterSelector({ agent }: Props) {
     return (
-        <div className='h-28 w-28  p-1 flex-shrink-0'>
+        <div className='h-16 w-16  p-1 flex-shrink-0'>
             <img src={agent.displayIcon} alt={agent.displayName}  className='h-full w-full object-contain ' />
         </div>
     )
