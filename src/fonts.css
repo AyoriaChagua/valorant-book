@@ -45,3 +45,18 @@
     font-weight: normal;
     font-style: normal;
 }
+
+@font-face {
+    font-family: 'Tungsten-black';
+    src: url('/src/assets/fonts/Tungsten-black.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Tungsten-bold';
+    src: url('/src/assets/fonts/Tungsten-bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

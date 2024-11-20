@@ -1,0 +1,1 @@
+export const httpAgents = 'https://valorant-api.com/v1/agents'
